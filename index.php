@@ -15,7 +15,9 @@
         <option value="0">Alessandra Silva</option>
         <option value="1">Gilberto Astolf</option>
         <option value="2">Marcio Perez</option>
+        <input name="cor" type="color">
         <input type="submit">
+
 
     </select>
 </form>

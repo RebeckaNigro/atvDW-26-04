@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viualizar</title>
 </head>
-<body>
-<?php include('./header.html') ?>    
-
+<body style="background-color: <?php echo $_GET['cor'] ?>;">  
 <section>
     <h2>
         <?php echo $_GET['frase']; ?>
-    </h2>
+        <img src="<?php echo $_GET['img']?>" alt="imagem"> </h2>
 </section>
 
 <?php include('./footer.html') ?>
